@@ -13,7 +13,7 @@ app.use('/', function (req,res,next ){
 });
 
 app.get('/', function (req, res){
-    res.send('index');
+    res.render('index');
 });
 
 app.get('/api',function (req, res){
